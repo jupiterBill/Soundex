@@ -1,0 +1,76 @@
+
+.Main{
+    width: 90%;
+    margin: 3rem auto;
+    
+}
+
+.Main_box {
+    
+    padding: 6rem;
+    padding-right: 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../Images/bg11.jfif');
+    transition: background-image 1s ease-in-out;
+    animation: change-background 20s infinite;
+    border-radius: 1.5rem;
+}
+.Btn{
+  margin-inline:auto;
+}
+@keyframes change-background {
+    0% {
+        background-image: url('../../Images/bg6.jfif');
+      }
+      20% {
+        background-image: url('../../Images/bg3.jfif');
+      }
+      40% {
+        background-image: url('../../Images/bg4.jfif');
+      }
+      60% {
+        background-image: url('../../Images/bg5.jfif');
+      }
+      80% {
+        background-image: url('../../Images/bg6.jfif');
+      }
+      100% {
+        background-image: url('../../Images/bg11.jfif');
+      }
+}
+.Main_box_left h1{
+    font-size: 4rem;
+    font-style:italic;
+    line-height: 1;
+
+   
+}
+
+.Main_box_left p{
+    margin-bottom:  2rem;
+}
+
+@media screen and (max-width: 35em) {
+    .Main{
+        width: 90%;
+    }
+    .Main_box_left h1{
+      line-height: 1;
+      font-size: 2px;
+  }
+    
+}
+
+@media screen and (max-width: 55em) {
+   
+
+    .Main_box_left{
+        padding-right: 2rem;
+    }
+
+    .Main_box_left h1{
+        line-height: 1;
+        font-size: 2px;
+    }
+}
