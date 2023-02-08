@@ -5,24 +5,20 @@ import { BsCircleFill } from "react-icons/bs";
 
 //INTERNAL IMPORT
 import Style from "./Category.module.css";
-import Images from "../../Images";
 
 const Category = () => {
   const CategoryArray = [
+  
     {
-      images: Images.soundex1,
-      name: "Pop",
-    },
-    {
-      images: Images.soundexlogo,
+      images: "https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5",
       name: "Rock",
     },
     {
-      images: Images.soundex2,
+      images: "https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt",
       name: "R&B",
     },
     {
-      images: Images.soundex4,
+      images: "https://soundex.infura-ipfs.io/ipfs/QmYX6BjEh7nDQ6DJDMu6z5KGUJdtp1dhCwV6bUjCDrE1bZ",
       name: "Reggae",
     }
     
@@ -37,6 +33,9 @@ const Category = () => {
             <Image
               src={el.images}
               className={Style.category_box_img}
+              width = {350}
+              height= {150}
+
               alt="Background image"
             />
 

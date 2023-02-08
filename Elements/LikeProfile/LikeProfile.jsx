@@ -1,11 +1,15 @@
 import React from "react";
-import Image from "next/image";
+
 
 //INTERNAL IMPORT
 import Style from "./LikeProfile.module.css";
-import Images from "../../Images";
+
 const LikeProfile = () => {
-  const imageArray = [Images.soundex1, Images.soundex2, Images.soundex3, Images.soundexlogo];
+  const imageArray = [
+    "https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt",
+     "https://soundex.infura-ipfs.io/ipfs/QmSLYAnmiswCjeehP7SME5VrgB5nW3YqwNDUWDXzyyzUgG",
+     "https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"
+  ];
   return (
     <div className={Style.like}>
       {imageArray.map((el, i) => (

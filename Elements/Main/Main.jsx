@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useContext } from "react";
-import Image from "next/image";
+
 import { useRouter } from "next/router";
 
 //INTERNAL IMPORT
 import Style from "./Main.module.css";
 import { Button } from "../elements-index";
-import images from "../../Images";
+
 
 const Main = () => {
   

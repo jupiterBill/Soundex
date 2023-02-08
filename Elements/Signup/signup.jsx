@@ -1,7 +1,7 @@
 import React,{} from "react";
 import { RiSendPlaneFill } from "react-icons/ri";
 import Style from "./signup.module.css";
-import Images from "../../Images";
+
 import Image from "next/image";
 const Signup = ()=>{
 return (
@@ -32,7 +32,7 @@ return (
         <div className={Style.subscribe_box_right}>
           <Image
             className={Style.image}
-            src={Images.soundex3}
+            src={"https://soundex.infura-ipfs.io/ipfs/QmSLYAnmiswCjeehP7SME5VrgB5nW3YqwNDUWDXzyyzUgG"}
             alt="get update"
             height={600}
             width={800}

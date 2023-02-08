@@ -9,7 +9,6 @@ import {CgMenuRight,CgMenuLeft} from 'react-icons/cg';
 import Style from './NavBar.module.css';
 import {Button} from '../elements-index';
 import {Explore,HelpCenter,Notifications,Sidebar,Profile} from './index'
-import image from "../../Images"
 import { NFTMarketplaceContext } from '../../Context/SoundexContext';
 const NavBar = ()=> {
     //state of Navigation Bar components which could either be opened or closed
@@ -101,7 +100,7 @@ const NavBar = ()=> {
             <div className={Style.navbar_container}>
             <div className={Style.navbar_container_left}>
                 <div className={Style.logo} onClick={()=>{router.push("/")}}>
-                <Image src={image.soundexlogo} alt = "soundex logo" width={100} height={100}/>
+                <Image src={"https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"} alt = "soundex logo" width={100} height={100}/>
                 </div>
                 <div className={Style.navbar_container_left_box_input}>
                         <input type="text" placeholder='search NFTs'/>
@@ -159,7 +158,7 @@ const NavBar = ()=> {
                 {/* USER PROFILE BUTTON*/}
                 <div className={Style.navbar_container_right_profile_box}>
                     <div className={Style.navbar_container_right_profile}>
-                        <Image src={image.soundex2}
+                        <Image src={"https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt"}
                         alt = "nada" 
                         width={50} height={50} 
                         onClick = {() => displayProfile()}

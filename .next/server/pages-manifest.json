@@ -1,7 +1,16 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/NFTDetails": "pages/NFTDetails.html",
+  "/Upload": "pages/Upload.html",
+  "/aboutus": "pages/aboutus.html",
+  "/collection": "pages/collection.html",
+  "/connectWallet": "pages/connectWallet.html",
+  "/creator": "pages/creator.html",
+  "/contactus": "pages/contactus.html",
+  "/": "pages/index.html",
+  "/resellToken": "pages/resellToken.html",
+  "/searchPage": "pages/searchPage.html",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/searchPage": "pages/searchPage.js"
+  "/404": "pages/404.html"
 }

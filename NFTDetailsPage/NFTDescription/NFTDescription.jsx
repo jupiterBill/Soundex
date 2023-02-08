@@ -22,8 +22,6 @@ import { BiTransferAlt, BiDollar } from "react-icons/bi";
 
 //INTERNAL IMPORT
 import Style from "./NFTDescription.module.css";
-
-import Images from "../../Images";
 import { Button } from "../../Elements/elements-index";
 
 
@@ -38,27 +36,6 @@ const NFTDescription = ({ nft }) => {
 
   const router = useRouter();
 
-  /*const historyArray = [
-    images.user1,
-    images.user2,
-    images.user3,
-    images.user4,
-    images.user5,
-  ];
-  const provananceArray = [
-    images.user6,
-    images.user7,
-    images.user8,
-    images.user9,
-    images.user10,
-  ];
-  const ownerArray = [
-    images.user1,
-    images.user8,
-    images.user2,
-    images.user6,
-    images.user5,
-  ];*/
 
   const openSocial = () => {
     if (!social) {
@@ -169,7 +146,7 @@ const NFTDescription = ({ nft }) => {
           <div className={Style.NFTDescription_box_profile_box}>
             <div className={Style.NFTDescription_box_profile_box_left}>
               <Image
-                src={Images.soundexlogo}
+                src={"https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"}
                 alt="profile"
                 width={40}
                 height={40}
@@ -187,7 +164,7 @@ const NFTDescription = ({ nft }) => {
 
             <div className={Style.NFTDescription_box_profile_box_right}>
               <Image
-                src={Images.soundex4}
+                src={"https://soundex.infura-ipfs.io/ipfs/QmYX6BjEh7nDQ6DJDMu6z5KGUJdtp1dhCwV6bUjCDrE1bZ"}
                 alt="profile"
                 width={40}
                 height={40}

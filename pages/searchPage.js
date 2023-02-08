@@ -3,7 +3,7 @@ import React, { useEffect, useState, useContext } from "react";
 //INTRNAL IMPORT
 import Style from "../styles/searchPage.module.css";
 import { SearchBar } from "../SearchPage/searchBarIndex";
-import Images from "../Images";
+
 import MarketItems from "../MarketItems/MarketItems";
 
 

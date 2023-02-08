@@ -4,7 +4,6 @@ import { TbPlayerPlay, TbPlayerPause } from "react-icons/tb";
 
 //INTERNAL IMPORT
 import Style from "./AudioCardSmall.module.css";
-import Images from "../../../Images";
 import LikeProfile from "../../LikeProfile/LikeProfile";
 
 const AudioCardSmall = () => {
@@ -21,7 +20,7 @@ const AudioCardSmall = () => {
     <div className={Style.audioPlayer}>
       <div className={Style.audioPlayer_box}>
         <Image
-          src={Images.creatorbackground1}
+          src={""}
           alt="music"
           width={100}
           height={100}

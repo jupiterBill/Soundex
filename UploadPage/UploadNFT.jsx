@@ -10,7 +10,6 @@ import { useRouter } from "next/router";
 import Style from "./UploadNFT.module.css";
 //import formStyle from "../AccountPage/Form/Form.module.css";
 import formStyle from "../styles/Form.module.css"
-import Images from "../Images";
 import {Button} from "../Elements/elements-index.js"
 import { DropZone } from "./uploadNFTIndex";
 
@@ -29,28 +28,25 @@ const UploadNFT = ({ uploadToIPFS, createNFT }) => {
   const router = useRouter();
 
   const categoryArry = [
+  
     {
-      image: Images.soundex1,
-      category: "Sports",
-    },
-    {
-      image: Images.soundexlogo,
+      image: "https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5",
       category: "Arts",
     },
     {
-      image: Images.upload,
+      image: "https://soundex.infura-ipfs.io/ipfs/QmPTLoQ99xosh8NYiAXAngTuaHVK4FSwVBEFJUEiC6AbjV",
       category: "Music",
     },
     {
-      image: Images.wally,
+      image: "https://soundex.infura-ipfs.io/ipfs/QmRArRveFguRGKFa4gggRo4qoqx75AnVAZDLzWCk4CQ3gn",
       category: "Digital",
     },
     {
-      image: Images.soundex3,
+      image: "https://soundex.infura-ipfs.io/ipfs/QmSLYAnmiswCjeehP7SME5VrgB5nW3YqwNDUWDXzyyzUgG",
       category: "Time",
     },
     {
-      image: Images.soundex4,
+      image: "https://soundex.infura-ipfs.io/ipfs/QmYX6BjEh7nDQ6DJDMu6z5KGUJdtp1dhCwV6bUjCDrE1bZ",
       category: "Photography",
     },
   ];

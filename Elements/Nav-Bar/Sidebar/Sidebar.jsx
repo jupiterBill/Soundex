@@ -17,7 +17,7 @@ import { DiJqueryLogo } from "react-icons/di";
 
 //INTERNAL IMPORT
 import Style from "./SideBar.module.css";
-import images from "../../../Images";
+
 import Button from "../../Buttons/Buttons";
 import { Router } from "next/router";
 
@@ -77,7 +77,7 @@ const Sidebar = ({setOpenSideMenu})=> {
         onClick={() => closeSideBar()}
       />
       <div className={Style.sideBar_box}>
-            <Image src = {images.soundex1} width= {50} height = {50} className = {Style.sideBar_logo}/>
+            <Image src = {"https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"} width= {50} height = {50} alt = {""} className = {Style.sideBar_logo}/>
             <p>Random text that will be on the sidebar box</p>
             <div className={Style.Sidebar_social}>
                 <a href="#">

@@ -5,6 +5,7 @@ module.exports = {
     domains: ['soundex.infura-ipfs.io'],
   },
   swcMinify: true,
+ 
 };
 
 

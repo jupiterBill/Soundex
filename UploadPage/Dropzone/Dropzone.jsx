@@ -3,7 +3,7 @@ import { useDropzone } from "react-dropzone";
 import Image from "next/image";
 //INTRNAL IMPORT
 import Style from "./DropZone.module.css";
-import Images from "../../Images";
+
 import AudioCard from "../../Elements/Audio/AudioCard/AudioCard";
 
 const DropZone = ({
@@ -62,7 +62,7 @@ const DropZone = ({
           <p>{title}</p>
           <div className={Style.DropZone_box_input_img}>
             <Image
-              src={Images.upload}
+              src={"https://soundex.infura-ipfs.io/ipfs/QmPTLoQ99xosh8NYiAXAngTuaHVK4FSwVBEFJUEiC6AbjV"}
               alt="upload"
               width={100}
               height={100}

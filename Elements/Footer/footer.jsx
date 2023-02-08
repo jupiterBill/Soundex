@@ -11,13 +11,13 @@ import {
 import {RiSendPlaneFill} from 'react-icons/ri';
 import Style from './Footer.module.css';
 import {Explore,HelpCenter} from '../Nav-Bar/index';
-import images from "../../Images"
+
 const Footer = ()=> {
     return (
         <div className={Style.footer}>
         <div className={Style.footer_box}>
           <div className={Style.footer_box_social}>
-             <Image src={images.soundexlogo} alt="footer logo"  width={100} height={100} /> 
+             <Image src={"https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"} alt="footer logo"  width={100} height={100} /> 
             {/*<a href="/">
               <DiJqueryLogo className={Style.footer_box_social_logo} />
             </a>*/}

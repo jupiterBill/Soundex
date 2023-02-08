@@ -5,18 +5,13 @@ import { Main,Slider,Signup, Title,Category,AudioLive,AudioComp} from '../Elemen
 import { NFTMarketplaceContext } from '../Context/SoundexContext';
  const Home = ()=>{
   const {fetchNFTs,currentAccount,checkIfWalletConnected} = useContext(NFTMarketplaceContext)
-    
-  
   return(
     <div className={Style.homepage}>
       <Main />
       <Title heading="Top NFTS..." paragraph = "Check out our most popular top NFTs below.."/>
       <Slider /> 
       <Signup/>
-    
       <Category/>
-      
-      
       {/*
       <LikeProfile/>
       <AudioLive/>

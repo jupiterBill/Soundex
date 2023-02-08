@@ -10,7 +10,7 @@ import Link from "next/link";
 
 //INTERNAL IMPORT
 import Style from "./Profile.module.css";
-import images from "../../../Images";
+
 import { NFTMarketplaceContext } from "../../../Context/SoundexContext";
 
 const Profile = ()=> {
@@ -19,7 +19,7 @@ const Profile = ()=> {
         <div className={Style.profile}>
           <div className={Style.profile_account}>
             <Image
-              src={images.soundex1}
+              src={"https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt"}
               alt="user profile"
               width={50}
               height={50}

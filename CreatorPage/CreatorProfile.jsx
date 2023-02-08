@@ -16,7 +16,7 @@ import { BsThreeDots } from "react-icons/bs";
 
 //INTERNAL IMPORT
 import Style from "./CreatorProfile.module.css";
-import Images from "../Images";
+
 import { Button } from "../Elements/elements-index";
 import { NFTMarketplaceContext } from "../Context/SoundexContext";
 const CreatorProfile = ({ currentAccount }) => {
@@ -55,7 +55,7 @@ const CreatorProfile = ({ currentAccount }) => {
       <div className={Style.AuthorProfileCard_box}>
         <div className={Style.AuthorProfileCard_box_img}>
           <Image
-            src={Images.soundex4}
+            src={"https://soundex.infura-ipfs.io/ipfs/QmYX6BjEh7nDQ6DJDMu6z5KGUJdtp1dhCwV6bUjCDrE1bZ"}
             className={Style.AuthorProfileCard_box_img_img}
             alt="NFT IMAGES"
             width={220}

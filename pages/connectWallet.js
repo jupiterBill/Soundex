@@ -3,7 +3,7 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "../styles/connectWallet.module.css";
-import Images from "../Images";
+
 //IMPORT FROM SMART CONTRACT
 //import { NFTMarketplaceContext } from "../Context/NFTMarketplaceContext";
 const connectWallet = () => {
@@ -14,19 +14,19 @@ const connectWallet = () => {
  }
   const providerArray = [
     {
-      provider: Images.provider1,
+      provider: "https://soundex.infura-ipfs.io/ipfs/QmPannU5EvTjnv5DdEpxpLH3JmKET13ydRkTdNDzAYBkwH",
       name: "Metamask",
     },
     {
-      provider: Images.provider2,
+      provider: "https://soundex.infura-ipfs.io/ipfs/QmbzmFbPugz2AUDi2D5BgFCs6nyGDXuWs2zsE15HLvhL5L",
       name: "walletConnect",
     },
     {
-      provider: Images.provider3,
+      provider: "https://soundex.infura-ipfs.io/ipfs/QmQKe2go3swdARLbZuyMUBTdrdrEUbaDMkqNZfDgQPAn5F",
       name: "walletlink",
     },
     {
-      provider: Images.provider4,
+      provider: "https://soundex.infura-ipfs.io/ipfs/QmQ1xrY5MyiMr1yQrim5XHHBLBo8iRaEYfpouJkZZ3uEs5",
       name: "Formatic",
     },
   ];

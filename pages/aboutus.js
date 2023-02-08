@@ -3,29 +3,29 @@ import Image from "next/image";
 
 //INTERNAL IMPORT
 import Style from "../styles/aboutus.module.css";
-import Images from "../Images";
+
 
 const aboutus = () => {
   const founderArray = [
     {
       name: "Wale Oladeinde",
       position: "Founder and Chief Executive",
-      images: Images.wally,
+      images: "https://soundex.infura-ipfs.io/ipfs/QmRArRveFguRGKFa4gggRo4qoqx75AnVAZDLzWCk4CQ3gn",
     },
     {
       name: "Edwin Anajemba",
       position: "Co-founder and Chief Executive",
-      images: Images.soundexlogo,
+      images: "https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5",
     },
     {
       name: "olalekan solomon",
       position: "Co-founder, Chairman",
-      images: Images.soundex3,
+      images: "https://soundex.infura-ipfs.io/ipfs/QmSLYAnmiswCjeehP7SME5VrgB5nW3YqwNDUWDXzyyzUgG",
     },
     {
       name: "zeno ezeanakwe",
       position: "Co-Founder, Chief Strategy Officer",
-      images: Images.soundex2,
+      images: "https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt",
     },
   ];
 
@@ -56,7 +56,7 @@ const aboutus = () => {
             </p>
           </div>
           <div className={Style.aboutus_box_hero_right}>
-            <Image src={Images.soundexlogo} />
+            <Image src={"https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5"} />
           </div>
         </div>
 

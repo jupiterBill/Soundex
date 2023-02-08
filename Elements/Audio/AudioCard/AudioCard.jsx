@@ -5,7 +5,7 @@ import { TbPlayerPlay, TbPlayerPause } from "react-icons/tb";
 import { useRouter } from 'next/router';
 //INTERNAL IMPORT
 import Style from "./AudioCard.module.css";
-import Images from "../../../Images";
+
 import { LikeProfile } from "../../elements-index";
 
 const AudioCard = ({src,name,price,tokenId,backgroundImage}) => {

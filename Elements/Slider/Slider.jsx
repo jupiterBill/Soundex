@@ -7,7 +7,6 @@ import Link from "next/link";
 //INTERNAL IMPORT
 import React, { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import Images from "../../Images";
 import Style from "./Slider.module.css"
 import { Button } from '../elements-index';
 import { NFTMarketplaceContext } from '../../Context/SoundexContext';

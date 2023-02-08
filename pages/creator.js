@@ -3,7 +3,6 @@ import React, { useState, useEffect, useContext } from "react";
 //INTERNAL IMPORT
 import Style from "../styles/creator.module.css";
 import { Title } from "../Elements/elements-index";
-import Images from "../Images";
 import CreatorProfile from "../CreatorPage/CreatorProfile";
 import MarketItems from "../MarketItems/MarketItems";
 
