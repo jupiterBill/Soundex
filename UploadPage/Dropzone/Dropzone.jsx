@@ -2,7 +2,7 @@ import React, { useState, useCallback } from "react";
 import { useDropzone } from "react-dropzone";
 import Image from "next/image";
 //INTRNAL IMPORT
-import Style from "./DropZone.module.css";
+import Style from "./Dropzone.module.css";
 
 import AudioCard from "../../Elements/Audio/AudioCard/AudioCard";
 

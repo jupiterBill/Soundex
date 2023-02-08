@@ -16,7 +16,7 @@ import {
 import { DiJqueryLogo } from "react-icons/di";
 
 //INTERNAL IMPORT
-import Style from "./SideBar.module.css";
+import Style from "./Sidebar.module.css";
 
 import Button from "../../Buttons/Buttons";
 import { Router } from "next/router";

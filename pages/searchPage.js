@@ -2,7 +2,7 @@ import React, { useEffect, useState, useContext } from "react";
 
 //INTRNAL IMPORT
 import Style from "../styles/searchPage.module.css";
-import { SearchBar } from "../SearchPage/searchBarIndex";
+import { SearchBar } from "../SearchPage/SearchBarIndex";
 
 import MarketItems from "../MarketItems/MarketItems";
 
